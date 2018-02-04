@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>New HMTL document by NewJect</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $("document").ready(function () {
+            $("#mybutton").click(function () {
+                $(this).hide();
+            })
+            $(".nihao").click(function () {
+                $("h3").slideToggle("slow");
+            })
+        });
+    </script>
+    <style type="text/css">
+        div h3 {
+            height: 120px;
+            color: blue;
+            display: none;
+        }
+        
+        div h4 {
+            height: 60px;
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>我的大宝贝，小宝贝，爱死你们了！！！！！</h3
+        <h4> 你好，我的朋友。</h4 
+    </div>
+    <button type="button" id="mybutton"> click me</button>
+    <button type="button" class="nihao"> nihao</button>
+</body>
+
+</html>
